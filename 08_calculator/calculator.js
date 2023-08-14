@@ -1,25 +1,25 @@
-const add = function() {
-	
+const add = function (...args) {
+  return args[0] + args[1];
 };
 
-const subtract = function() {
-	
-};
-
-const sum = function() {
-	
-};
-
-const multiply = function() {
+const subtract = function () {
 
 };
 
-const power = function() {
-	
+const sum = function () {
+
 };
 
-const factorial = function() {
-	
+const multiply = function () {
+
+};
+
+const power = function () {
+
+};
+
+const factorial = function () {
+
 };
 
 // Do not edit below this line
