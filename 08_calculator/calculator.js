@@ -17,8 +17,9 @@ const sum = function (arr) {
   return sum;
 };
 
-const multiply = function () {
-
+const multiply = function (...args) {
+  let multiplies = args.reduce((multiply, num) => multiply * num, 1);
+  return multiplies;
 };
 
 const power = function () {
